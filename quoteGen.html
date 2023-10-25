@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Quotes</title>
+    <link rel="stylesheet" href="quoteGen.css">
+</head>
+<body>
+
+    <div class="quote-box">
+        <h2>Quote of the day</h2>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
+        <div>
+            <button onclick="getquote(api_url)">New Quote</button>
+            <button onclick="tweet()"><img src="twitter.png">Tweet</button>
+        </div>
+    </div>
+    
+</body>
+<script src="quoteGen.js"></script>
+</html>
